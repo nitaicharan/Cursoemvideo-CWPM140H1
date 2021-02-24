@@ -1,0 +1,17 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*( Phone )*/
+@media (max-width: 480px) {
+
+	/*= Content =================== */
+
+	/** Content >> Bem-vindo Especial **/
+	.uagb-block-15895628 .uagb-ifb-title {
+	font-size: 55px !important;
+	line-height: 70 !important;
+}
+
+
+}
+

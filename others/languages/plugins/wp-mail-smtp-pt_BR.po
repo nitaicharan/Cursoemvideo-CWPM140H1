@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-25 04:09:51+0000\n"
+"PO-Revision-Date: 2021-02-26 05:16:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -342,6 +342,10 @@ msgstr "Qual mailer você gostaria de usar para enviar e-mails?"
 msgid "is a PRO Feature"
 msgstr "é um recurso PRO"
 
+#: assets/languages/wp-mail-smtp-vue.php:212
+msgid "Read how to set up the Gmail mailer"
+msgstr "Leia como configurar o mailer do Gmail"
+
 #: assets/languages/wp-mail-smtp-vue.php:203
 msgid "Read how to set up Outlook"
 msgstr "Leia como configurar o Outlook"
@@ -425,6 +429,11 @@ msgstr "Parece que não podemos carregar o redirecionamento oAuth."
 msgid "It looks like we can't remove oAuth connection."
 msgstr "Parece que não podemos remover a conexão oAuth."
 
+#. Translators: Current WordPress version.
+#: assets/languages/wp-mail-smtp-vue.php:20
+msgid "WP Mail SMTP has detected that your site is running an outdated version of WordPress (%s). WP Mail SMTP requires at least WordPress version 4.9."
+msgstr "WP Mail SMTP detectou que seu site está executando uma versão desatualizada do WordPress (%s). WP Mail SMTP requer pelo menos WordPress versão 4.9."
+
 #: assets/languages/wp-mail-smtp-vue.php:29
 msgid "Return to Mailer Settings"
 msgstr "Retornar às configurações do mailer"
@@ -468,6 +477,10 @@ msgstr "Salvar e continuar"
 #: assets/languages/wp-mail-smtp-vue.php:227
 msgid "Choose Your SMTP Mailer"
 msgstr "Escolha seu mailer SMTP"
+
+#: assets/languages/wp-mail-smtp-vue.php:206
+msgid "Authorized Redirect URI"
+msgstr "URI de redirecionamento autorizado"
 
 #: assets/languages/wp-mail-smtp-vue.php:62
 msgid "Import Data and Continue"

@@ -1,6 +1,33 @@
 /*  MICROTHEMER STYLES  */
 
 
+/*= Content =================== */
+
+/** Content >> Título Cardápio Home **/
+#post-6 .uagb-rm__title-wrap {
+	
+}
+
+/** Content >> Preço Cardapio Home **/
+#post-6 .uagb-rm__price {
+	
+}
+
+
+/*( Tablet & Phone )*/
+@media (max-width: 767px) {
+
+	/*= Content =================== */
+
+	/** Content >> Bem-vindo Especial **/
+	.uagb-block-15895628 .uagb-ifb-title {
+	
+}
+
+
+}
+
+
 /*( Phone )*/
 @media (max-width: 480px) {
 
@@ -8,8 +35,7 @@
 
 	/** Content >> Bem-vindo Especial **/
 	.uagb-block-15895628 .uagb-ifb-title {
-	font-size: 55px !important;
-	line-height: 70 !important;
+	
 }
 
 

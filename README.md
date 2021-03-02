@@ -4,10 +4,10 @@
 ![WordPress][wordpress-shield]
 ![PHP][php-shield]
 
-<p align="center">:bangbang: Documentation available to access at: https://nitaicharan.github.io/Cursoemvideo-CWPM140H :bangbang:</p>
+<p align="center">:bangbang: Documentation available to access at: https://nitaicharan.github.io/Cursoemvideo-CWPM140H1 :bangbang:</p>
 
-<!--[![](Cursoemvideo-CWPM140H.png)](https://nitaicharan.github.io/Cursoemvideo-CWPM140H/)-->
-<a href="https://nitaicharan.github.io/Cursoemvideo-CWPM140H">
+<!--[![](Cursoemvideo-CWPM140H1.png)](https://nitaicharan.github.io/Cursoemvideo-CWPM140H1/)-->
+<a href="https://nitaicharan.github.io/Cursoemvideo-CWPM140H1">
   <p align="center">
     <img style="height: 100px" src="PREVIEW.png">
   </p>
@@ -39,32 +39,14 @@ This certificate above verifies that [Nitai Charan][udemy-url] successfully comp
 
 ## Development GitHub Pages
 
-<!-- http://localhost:<port>/swagger-ui.html -->
-
-<!-- pretty-swag -i doc/api-docs.json -o doc/index.html -->
-<!-- swagger-codegen-cli generate -i http://localhost:<port>/v3/api-docs -o doc/ -l html2 -->
-<!-- bootprint openapi http://localhost:8080/v3/api-docs target/ -->
-
 ```
-Sava json http://localhost:<port>/v3/api-docs --> /doc
-
-spectacle doc/api-docs.json  -t doc/
-
 git add -A
 git commit -m <titule> <message>
 git push origin <branch>
-git subtree push --prefix doc/ origin gh-pages
-git push origin `git subtree split --prefix doc master`:gh-pages --force
+git subtree push --prefix site/ origin gh-pages
+git push origin `git subtree split --prefix site/ master`:gh-pages --force
 ```
 
-## Deploy application
-
-```
-- Get environment variables on https://dashboard.heroku.com/apps/Cursoemvideo-CWPM140H/settings
-- Set variables on project-enviroments.env file
-
-docker-compose up --detach
-```
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://markdownguide.org/basic-syntax/#reference-style-links -->
